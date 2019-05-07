@@ -1,0 +1,38 @@
+name = "PythonBo"
+machine = "HAL"
+
+print("Nice to meet {0} you {1}".format(name,machine))
+
+print(f"Nice to meet {name} you {machine}")
+
+
+student_name = ["Nilesh","Apurva","Mandar"]
+
+print(student_name)
+
+student_name.append("Kedar")
+
+print(student_name[2:-1])
+print(student_name)
+
+for name in student_name:
+    print(name)
+
+is_exist = "Apurva" in student_name
+
+print(is_exist)
+print(len(student_name))
+
+del student_name[3]
+
+print(student_name)
+x = 0;
+for index in range(20):
+    x  += 10
+    print("The vale of X is {0}".format(x))
+x = 0
+for index in range(5,10):
+    x  += 10
+    print("The vale of X is {0}".format(x))
+
+
